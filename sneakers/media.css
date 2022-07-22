@@ -1,0 +1,74 @@
+@media screen and (max-width:599px){
+   html{
+    width: 100%;
+   }
+   
+    header{
+    width: 100%;
+    padding: 0.2em !important;
+    background-color: rgb(255, 253, 253);
+    overflow: hidden !important;
+}
+
+    .ul_container{
+        display: none;
+        
+    }
+    .sneakers{
+        width: 400px;
+        max-width:100%;
+        border-radius: 0% !important;
+        margin-left: 1vmax !important;
+        margin: 0em !important;
+        
+        
+    }
+    .logo{
+        width: 130px;
+        margin: 0em !important;
+        margin-right: 0em !important;
+    }
+    .ham_burger{
+        display: content;
+    }
+    .sneaK_container{
+        display: content;
+        padding-top:12em;
+    }
+    h5{
+        padding-top: 1em;
+        margin-left: 12px;
+        font-size: 300;
+    }
+    h3{
+        display: inline-block;
+        padding-top: 12px;
+        margin-left: 12px;
+        color: rgba(17, 17, 17, 0.877);
+        font-weight: 750;
+    }
+    .paragraph{
+        color: #777677;
+        line-height: 1.5;
+        display: block;
+        padding: 8px;
+    }
+  .div_sect{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin: 1em;
+  }
+    .bold{
+        color: orangered;
+        background-color: bisque;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .sign{
+        color: #777677;
+        padding-left: 4.6em;
+        text-decoration: line-through;
+    }
+   
+}

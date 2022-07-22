@@ -1,0 +1,53 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: white;
+    width: 90%;
+}
+.ham_burger{
+    display: none ;
+}
+.avatar_pic{
+    width: 30px;
+    padding-left: 17px;
+}
+.cart_pic{
+    margin-bottom: 3px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em;
+    
+}
+.ul_container{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding-left: 20px;
+    
+}
+a{
+    padding: 0%;
+}
+a:hover{
+text-decoration: underline orange 3px solid;
+text-underline-offset: 1em;
+
+}
+.con{
+    display: flex;
+   
+}
+.logo{
+    width: 180px;
+    margin-right: 3em;
+    margin:1em;
+}
