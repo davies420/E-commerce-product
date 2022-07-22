@@ -10,3 +10,14 @@ h5{
 .sneaK_container{
     color: orangered;
 }
+.container_div{
+    display: flex;
+    justify-content: space-evenly;
+}
+.paragraphh{
+    padding-top: 7em;
+}
+.paragraph{
+    padding-top: 33px;
+    margin-left: 3em;
+}

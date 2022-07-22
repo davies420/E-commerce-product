@@ -1,6 +1,6 @@
 @media screen and (max-width:599px){
    html{
-    width: 100%;
+   max-width: 100%;
    }
    
     header{
@@ -29,21 +29,25 @@
         margin-right: 0em !important;
     }
     .ham_burger{
-        display: content;
+        display: inline;
+        width: 16px;
+        padding-right: 6px;
     }
     .sneaK_container{
         display: content;
         padding-top:12em;
+        margin-left: 0.5em;
+        padding: 0px!important;
     }
     h5{
         padding-top: 1em;
         margin-left: 12px;
-        font-size: 300;
+        font-size: 16px;
     }
     h3{
         display: inline-block;
         padding-top: 12px;
-        margin-left: 12px;
+        margin-left: 22px;
         color: rgba(17, 17, 17, 0.877);
         font-weight: 750;
     }
@@ -52,6 +56,7 @@
         line-height: 1.5;
         display: block;
         padding: 8px;
+        margin-left: 18px;
     }
   .div_sect{
     display: flex;
@@ -64,6 +69,7 @@
         background-color: bisque;
         padding: 5px;
         border-radius: 5px;
+        margin-left: 12px;
     }
     .sign{
         color: #777677;
@@ -79,5 +85,37 @@
         margin-left: 10px;
         border-radius: 10px;
     }
-   
+    .minus,.addition{
+        color: hsl(26, 100%, 55%);
+        font-size: larger;
+    }
+    .btn1{
+        padding:0.5em 1em;
+        width: 90%;
+       margin-top: 17px;
+        margin-left: 19px;
+        background-color: hsl(26, 100%, 55%);
+        border: none;
+        border-radius: 10px;
+        box-shadow: orangered 1.5px  1.5px;
+    }
+    .bolder{
+        color:white;
+        padding: 10px;
+        font-size: medium;
+    }
+    .container_div{
+        display: block !important;
+    }
+    .paragraphh{
+    padding: 0em !important;
+    }
+    .paragraph{
+        padding-top:11px!important;
+        margin-left:0em!important;
+        margin: 0em!important;
+    }
+    h3{
+        padding-top: 0.3em !important;
+    }
 }
