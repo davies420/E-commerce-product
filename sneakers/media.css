@@ -70,5 +70,14 @@
         padding-left: 4.6em;
         text-decoration: line-through;
     }
+    .signs{
+        display: flex;
+        justify-content: space-around;
+        background-color: hsl(223, 64%, 98%);
+        padding: 12px;
+        width: 90%;
+        margin-left: 10px;
+        border-radius: 10px;
+    }
    
 }
