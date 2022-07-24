@@ -12,12 +12,37 @@ h5{
 }
 .container_div{
     display: flex;
-    justify-content: space-evenly;
 }
 .paragraphh{
     padding-top: 7em;
 }
 .paragraph{
     padding-top: 33px;
-    margin-left: 3em;
+    margin-left: 0em;
+}
+.image_container{
+   display: flex;
+   gap: 20px;
+   margin-left: 28px;
+}
+.thumbnail{
+    width: 150px;
+    height: 134px;
+    border-radius: 13px;
+}
+.number{
+    position: relative;
+    display: flex;
+   
+}
+.div_sect{
+    position:absolute;
+    position: absolute;
+    bottom: 10em;
+    right: 20%;
+    display: flex ;
+    justify-content: center ;
+}
+h3{
+ padding-top: 1.2em;
 }

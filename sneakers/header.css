@@ -8,7 +8,9 @@
 }
 header{
     background-color: white;
-    width: 90%;
+    border-bottom: #e9e5e5 1px solid;
+    margin-left: 18px;
+    width: 86%;
 }
 .ham_burger{
     display: none ;

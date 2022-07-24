@@ -4,10 +4,11 @@
    }
    
     header{
-    width: 100%;
+    width: 100% !important;
     padding: 0.2em !important;
     background-color: rgb(255, 253, 253);
     overflow: hidden !important;
+    border-bottom: none;
 }
 
     .ul_container{
@@ -16,7 +17,7 @@
     }
     .sneakers{
         width: 400px;
-        max-width:100%;
+        max-width:106%;
         border-radius: 0% !important;
         margin-left: 1vmax !important;
         margin: 0em !important;
@@ -63,6 +64,10 @@
     gap: 12px;
     align-items: center;
     margin: 1em;
+    position: none;
+    bottom:-2em !important;
+    right: 0% !important;  
+    margin-bottom: 0.4em;  
   }
     .bold{
         color: orangered;
@@ -84,6 +89,7 @@
         width: 90%;
         margin-left: 10px;
         border-radius: 10px;
+        margin-top: 2em;
     }
     .minus,.addition{
         color: hsl(26, 100%, 55%);
@@ -107,6 +113,9 @@
     .container_div{
         display: block !important;
     }
+    .container{
+        padding-top: 5px !important;
+    }
     .paragraphh{
     padding: 0em !important;
     }
@@ -114,8 +123,19 @@
         padding-top:11px!important;
         margin-left:0em!important;
         margin: 0em!important;
+        padding-left: 1.3em !important;
     }
     h3{
         padding-top: 0.3em !important;
     }
+    .image_container{
+        display: none;
+    }
+    .thumbnail{
+        display: none;
+    }
+    .number{
+        position: none;
+    }
+  
 }
