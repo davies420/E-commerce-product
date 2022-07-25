@@ -1,20 +1,27 @@
 .sneakers{
     width: 400px;
    border-radius: 12px;
-   margin: 2em;
-
+   margin: 5em;
+}
+main{
+    width: 90%;
+}
+.con{
+    padding-left: 2em;
 }
 h5{
     padding-top: 1em;
 }
 .sneaK_container{
     color: orangered;
+    font-size: larger;
+    font-weight: bolder;
 }
 .container_div{
     display: flex;
 }
 .paragraphh{
-    padding-top: 7em;
+    padding-top: 9em;
 }
 .paragraph{
     padding-top: 33px;
@@ -23,11 +30,13 @@ h5{
 .image_container{
    display: flex;
    gap: 20px;
-   margin-left: 28px;
+   margin-left: 86px;
+   width: 80%;
+   margin-top: -39px;
 }
 .thumbnail{
-    width: 150px;
-    height: 134px;
+    width: 130px;
+    height: 120px;
     border-radius: 13px;
 }
 .number{
@@ -35,14 +44,69 @@ h5{
     display: flex;
    
 }
-.div_sect{
+/* .div_sect{
     position:absolute;
     position: absolute;
-    bottom: 10em;
-    right: 20%;
+    bottom: 6em;
+    right: 52%;
     display: flex ;
     justify-content: center ;
-}
+} */
 h3{
  padding-top: 1.2em;
+ padding-top: 1.2em;
+ font-size: 25px;
+ font-weight: 700;
+}
+s{
+    text-decoration: line-through;
+    color: #3f3f3477;
+    line-height: 3;
+}
+.signs{
+    display: flex;
+    justify-content: space-evenly;
+    gap:54px;
+    background-color: aliceblue;
+    align-items: center;
+    border-radius: 10px;
+    width: 50%;
+}
+.content{
+    display: flex;
+    margin-top: 1em;
+}
+.div_sect{
+    display: -webkit-box;
+}
+s{
+    margin: -4em;
+    margin-top: 6px;
+}
+.over{
+    padding-top:1em;
+}
+.bold{
+    color: rgb(241, 109, 60);
+    background-color: bisque;
+   margin-left: 12px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.btn1{
+    margin-left: 3em;
+    padding:0.5em 1em;
+        width: 90%;
+        margin-left: 19px;
+        background-color: hsl(26, 100%, 55%);
+        border: none;
+        border-radius: 10px;
+        box-shadow: orangered 1.5px  1.5px;
+}
+.bolder{
+    color: white;
+}
+.minus,.addition{
+    color: hsl(26, 100%, 55%);
+    font-size: larger;
 }

@@ -53,3 +53,41 @@ text-underline-offset: 1em;
     margin-right: 3em;
     margin:1em;
 }
+/* .lay {
+    position: relative;
+    width: 50%;
+    display: flex;
+    gap: 15px;
+    margin: 3em;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    right: 0;
+    background-color: #03080a6c;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .6s ease-in-out;
+    border-radius: 20%;
+}
+
+.lay:hover .overlay {
+    width: 8em;
+    left: 0em;
+    background-color: rgba(19, 17, 17, 0.397);
+}
+
+.jay {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+} */
